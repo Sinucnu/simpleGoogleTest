@@ -47,7 +47,7 @@ public void closingBrowser() {
 	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	System.out.println(driver.getTitle());
 	driver.close();
-	System.out.println("Closed Browser");
+	System.out.println("Closed the open browser");
 }
 }
 
