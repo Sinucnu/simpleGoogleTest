@@ -37,8 +37,7 @@ public class TestGoogle {
 				.click();
 
 		System.out.println("Selected Page with title : " + driver.getTitle());
-		driver.navigate().back();
-		driver.navigate().back();
+
 	}
 
 @Test(priority=4)
