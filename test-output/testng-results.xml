@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28239" started-at="2021-06-21T15:00:40 IST" finished-at="2021-06-21T15:01:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28239" started-at="2021-06-21T15:00:40 IST" finished-at="2021-06-21T15:01:08 IST">
+      <class name="simpleGoogleTest.TestGoogle">
+        <test-method status="PASS" signature="openGoogle()[pri:1, instance:simpleGoogleTest.TestGoogle@1e965684]" name="openGoogle" duration-ms="7497" started-at="2021-06-21T15:00:40 IST" finished-at="2021-06-21T15:00:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method status="PASS" signature="searchGoogle()[pri:2, instance:simpleGoogleTest.TestGoogle@1e965684]" name="searchGoogle" duration-ms="5502" started-at="2021-06-21T15:00:48 IST" finished-at="2021-06-21T15:00:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method status="PASS" signature="selectingPage()[pri:3, instance:simpleGoogleTest.TestGoogle@1e965684]" name="selectingPage" duration-ms="10672" started-at="2021-06-21T15:00:53 IST" finished-at="2021-06-21T15:01:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingPage -->
+        <test-method status="PASS" signature="closingBrowser()[pri:4, instance:simpleGoogleTest.TestGoogle@1e965684]" name="closingBrowser" duration-ms="4480" started-at="2021-06-21T15:01:04 IST" finished-at="2021-06-21T15:01:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- simpleGoogleTest.TestGoogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
