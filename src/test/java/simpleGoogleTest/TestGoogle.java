@@ -37,6 +37,8 @@ public class TestGoogle {
 				.click();
 
 		System.out.println("Selected Page with title : " + driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "I am google");
+
 
 	}
 
